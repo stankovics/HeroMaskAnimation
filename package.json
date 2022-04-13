@@ -1,0 +1,25 @@
+{
+  "name": "rebuild-codrops-masked-hero-master",
+  "version": "1.0.0",
+  "description": "<span style=\"color:red\">Used for learning purpose.\r There are some of my notes commented out in JS files.\\\r <span>",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --port 3000 --open",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stankovics/HeroMaskAnimation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stankovics/HeroMaskAnimation/issues"
+  },
+  "homepage": "https://github.com/stankovics/HeroMaskAnimation#readme",
+  "dependencies": {
+    "gsap": "^3.10.3",
+    "lodash.throttle": "^4.1.1",
+    "splitting": "^1.0.6"
+  }
+}
